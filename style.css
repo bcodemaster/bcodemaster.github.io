@@ -1,0 +1,102 @@
+
+body{
+  font-size: 16px;
+  font-family: "Rale way",sans-serif;
+  color:black;
+  background-image: url("wood2.jpg");
+}
+h1{
+  font-family: "Kite One",sans-serif;;
+  font-size: 60px;
+  text-align: center;
+  margin:0;
+}
+
+nav{
+  text-align: center;
+  background-color:rgb(189,183,107);
+  width: 50%auto;;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.30);
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 16px;
+  align-items: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 4px 8px;
+  color: green;
+}
+nav a:hover{
+  color: 	#808000;
+}
+
+a:visited{
+  color: #0000FF;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  color:#4B0082;
+}
+
+h2{
+  font-family: "Dancing Script",sans-serif;;
+  font-size: 30px;
+  margin:0;
+  border-bottom: 2px solid black;
+}
+
+#experience h3{
+  border-bottom: 1px solid black;
+}
+
+
+#container {
+  max-width: 620px;
+  max-height: 540px;
+  min-width: 320;
+  margin: 5em auto;
+  overflow: auto;
+  padding: 40px;
+}
+
+#container2 {
+  max-width: 960px;
+  min-width: 320;
+  margin: 5em auto;
+  overflow: auto;
+  padding: 30px;
+  text-align: left;
+  background-color:rgb(189,183,107);
+  width: 50%auto;;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: 6px 6px 25px 6px rgba(0,0,0,0.30);
+}
+
+#left-col{
+  max-width: 420px;
+  float: left;
+  margin-right: 60px;
+}
+
+#right-col {
+  max-width: 420px;
+  float: right;
+}
